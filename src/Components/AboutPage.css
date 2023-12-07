@@ -1,0 +1,71 @@
+.AboutPage {
+  position: relative;
+  left: 0;
+  top: 0;
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgba(255, 202, 102, 0.33);
+}
+
+.AboutPage .ImageOne {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.AboutPage .ImageTwo,
+.AboutPage .ImageThree,
+.AboutPage .ImageFour {
+  width: 33%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.AboutPage .TextContent {
+  position: absolute;
+  top: 50vh;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.AboutPage .Title {
+  position: absolute;
+  top: 80vh;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.AboutPage .FollowUs {
+  position: absolute;
+  top: 85vh;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 40px;
+}
+
+.AboutPage .TeamPhotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.AboutPage .Vector {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+}
